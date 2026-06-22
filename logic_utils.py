@@ -18,7 +18,14 @@ def check_guess(guess, secret):
 
     outcome examples: "Win", "Too High", "Too Low"
     """
-    raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
+    #FIX: I reviewed the code and core logic was correct but output it was giving was opposite.So I changed the return statement with the help of AI and fixed it.
+    if guess == secret:
+        return "Win", "🎉 Correct!"
+    if guess > secret:
+        # Guess is larger than the secret, so the player should aim lower.
+        return "Too High", "📉 Go LOWER!"
+    # Guess is smaller than the secret, so the player should aim higher.
+    return "Too Low", "📈 Go HIGHER!"
 
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
