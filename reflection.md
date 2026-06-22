@@ -24,6 +24,7 @@ Document at least 3 bugs you found. Add rows as needed.
 |   50  | Hint: Go Higher!  | Hint: Go Lower  |         None           |
 |   70  | Hint: Go Lower    | Hint: Go Higher!|         None           |
 |   57  | Final Score:90    | Final Score: 40 |         None           |
+| click Button- New game  | New game started   |You already won. Start a new game  |         None           |
 
 ---
 
